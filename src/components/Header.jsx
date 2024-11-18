@@ -12,6 +12,8 @@ const Header = () => {
             </div>
         </div>
         <br></br>
+        <div class='linebrk'></div>
+
         <div id='nav-bar'>
             <ul>
                 <li><a href=''>Home</a></li>
@@ -28,6 +30,26 @@ const Header = () => {
 
             </ul>
         </div>
+        <div class='linebrk'></div>
+
+        <div id='trending-topic'>
+            <ul>
+                <li><a href=''>Israel-Gaza war</a></li>
+                <li><a href=''>War in Ukraine</a></li>
+                <li><a href=''>US Election</a></li>
+                <li><a href=''>US & Canada</a></li>
+                <li><a href=''>UK</a></li>
+                <li><a href=''>Africa</a></li>
+                <li><a href=''>Asia</a></li>
+                <li><a href=''>Europe</a></li>
+                <li><a href=''>Latin America</a></li>
+                <li><a href=''>Middle East</a></li>
+                <li><a href=''>In Pictures</a></li>
+                <li><a href=''>BBC InDepth</a></li>
+                <li><a href=''>BBC Verify</a></li>
+            </ul>
+        </div>
+        <div class='linebrk'></div>
         </div>
     )
 }

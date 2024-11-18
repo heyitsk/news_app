@@ -46,13 +46,51 @@
 #nav-bar ul li{
     cursor: pointer;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     padding: 0.7em 0.7em;
-    text-decoration: none;
+    /* text-decoration: none; */
+    font-family:  Helvetica, Arial, sans-serif;
+    /* color: black; */
 
 }
 #nav-bar ul li:hover{
     cursor: pointer;
     background-color: rgb(191, 189, 189);
     
+}
+#nav-bar ul li a{
+    color: black;
+    text-decoration: none;
+}
+#trending-topic ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+#trending-topic ul li{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0.7em 0.7em;
+    /* text-decoration: none; */
+    font-family:  Helvetica, Arial, sans-serif;
+}
+#trending-topic ul li:hover{
+    cursor: pointer;
+    background-color: rgb(191, 189, 189);
+    
+}
+#trending-topic ul li a{
+    color: black;
+    text-decoration: none;
+}
+.linebrk{
+    /* border: 0.5px solid black;
+    width: 100%; */
+    /* margin: 0 9em; */
+    background-color: black;
+    height: 1px;
 }
