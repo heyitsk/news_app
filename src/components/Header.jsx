@@ -5,13 +5,12 @@ const Header = () => {
         <div id='header'>
         <div id="header-container">
             <button id="search">Search</button>
-            <img src='https://logos-world.net/wp-content/uploads/2022/01/BBC-Logo.png' alt='bbclogo'/>
+            <img src='https://logoeps.com/wp-content/uploads/2014/05/21601-news-logo-icon-vector-icon-vector-eps.png' alt='bbclogo'/>
             <div id='button'>
             <button id="register">Register</button>
             <button id="signup">Sign Up</button>
             </div>
         </div>
-        <br></br>
         <div class='linebrk'></div>
 
         <div id='nav-bar'>
