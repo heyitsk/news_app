@@ -42,6 +42,12 @@ const Shimmer = () => {
             </div><div className='shimmer-cards'>
                 <div className='img'></div>
             </div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
         
 
             
