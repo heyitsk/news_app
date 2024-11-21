@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import NewsCard from "./NewsCard";
 import '../styles/NewsList.css';
 import Shimmer from "./Shimmer";
+import axios from 'axios';
 
 const NewsItem = () =>{
     const [newsData, setnewsData] = useState(null)
@@ -12,11 +13,23 @@ const NewsItem = () =>{
     
 
     const fetchData = async()=>{
-        const data = await fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey=3a715e2372ef43199f90feaa865c8d26")
-        const json = await data.json()
+        try{
+            const response = await axios.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=3a715e2372ef43199f90feaa865c8d26")
+
+    
+        // const json = await data.json()
         // console.log(json.articles);
-        setnewsData(json.articles)
+        setnewsData(response.data.articles)
+        // console.log(response);
+        // console.log(response.data);
+        
+        
+        
         // console.log(newsData);
+        }catch(error){
+            console.log(error);
+            
+        }
         
         
     }
