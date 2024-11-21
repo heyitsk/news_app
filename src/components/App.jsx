@@ -7,6 +7,7 @@ import Sports from './Sports.jsx'
 import Business from './Business.jsx'
 import Travel from './Travel.jsx'
 import Arts from './Arts.jsx'
+import Footer from './Footer.jsx'
 
 
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
@@ -19,6 +20,7 @@ function App() {
     <Header/>
     <br></br>
     <Outlet/>
+    <Footer/>
       
     
     </>
