@@ -1,0 +1,14 @@
+#shimmer-card-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 0 0.5rem;
+}
+.shimmer-cards{
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 2px black solid;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
