@@ -20,10 +20,9 @@ const Header = () => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/Sports">Sport</Link></li>
                 <li><Link to="/Business">Business</Link></li>
-                
-                
-                <li><a href=''>Arts</a></li>
-                <li><a href=''>Travel</a></li>
+                <li><Link to="/Arts">Arts</Link></li>
+                <li><Link to="/Travel">Travel</Link></li>
+
                 
                 
 
