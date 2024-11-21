@@ -3,16 +3,46 @@ const Shimmer = () => {
     return(
         <>
         <div id="shimmer-card-container">
-            <div className='shimmer-cards'></div>
-            <div className='shimmer-cards'></div>
-            <div className='shimmer-cards'></div>
-            <div className='shimmer-cards'></div>
-            <div className='shimmer-cards'></div>
-            <div className='shimmer-cards'></div>
-            <div className='shimmer-cards'></div>
-            <div className='shimmer-cards'></div>
-            <div className='shimmer-cards'></div>
-            <div className='shimmer-cards'></div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
+            <div className='shimmer-cards'>
+                <div className='img'></div>
+            </div><div className='shimmer-cards'>
+                <div className='img'></div>
+            </div><div className='shimmer-cards'>
+                <div className='img'></div>
+            </div><div className='shimmer-cards'>
+                <div className='img'></div>
+            </div>
+        
 
             
         </div>
