@@ -4,7 +4,7 @@ import '../styles/NewsList.css';
 import Shimmer from "./Shimmer";
 
 const NewsItem = () =>{
-    const [newsData, setnewsData] = useState([""])
+    const [newsData, setnewsData] = useState(null)
     
     useEffect(()=>{
         fetchData();
@@ -20,12 +20,20 @@ const NewsItem = () =>{
         
         
     }
-    if(newsData==="") return <Shimmer/>
+    if(newsData===null){
+     return <Shimmer/>
+        
+    }
+
+
 
     return(
         <div id="news-card-container">
             {
-                newsData.map((news,index)=><NewsCard key={index} newsInfo={news} index={index}/>)
+                newsData
+                .filter((news)=>news.title!=="[Removed]" && news.description!=="[Removed]")
+                .slice(0,20)
+                .map((news,index)=><NewsCard key={index} newsInfo={news} index={index}/>)
             }
         </div>
     )
