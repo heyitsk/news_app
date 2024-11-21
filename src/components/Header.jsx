@@ -11,7 +11,7 @@ const Header = () => {
             <button id="signup">Sign Up</button>
             </div>
         </div>
-        <div class='linebrk'></div>
+        <div className='linebrk'></div>
 
         <div id='nav-bar'>
             <ul>
@@ -29,7 +29,7 @@ const Header = () => {
 
             </ul>
         </div>
-        <div class='linebrk'></div>
+        <div className='linebrk'></div>
 
         <div id='trending-topic'>
             <ul>
@@ -48,8 +48,12 @@ const Header = () => {
                 <li><a href=''>BBC Verify</a></li>
             </ul>
         </div>
-        <div class='linebrk'></div>
+        <div className='linebrk'></div>
+        <br></br>
+        <h1>NEWS</h1>
+        <div id='linebrk1'></div>
         </div>
+
     )
 }
 export default Header;
