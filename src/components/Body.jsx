@@ -1,9 +1,9 @@
-import NewsItem from "./NewsItem";
+import NewsList from "./NewsList";
 
 const Body = () => {
     return(
         <>
-        <NewsItem/>
+        <NewsList/>
         </>
     )
 }
