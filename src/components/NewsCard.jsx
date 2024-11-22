@@ -6,11 +6,13 @@ const NewsCard = (props) =>{
     // console.log(props);
     const{newsInfo} = props;
     // console.log(newsInfo);
-    const{title,urlToImage,description} = newsInfo;
+    const{title,urlToImage,description,url} = newsInfo;
     
     return(
         
-        <div className="card">
+        <div className="card" onClick={()=>{
+            window.open(url)
+        }}>
                 <img src={urlToImage||defaultImage} alt="Card Image" className="card-image"/>
                 <div className="card-content">
                 <h2 className="card-title">{title||"No Title Available"}</h2>
