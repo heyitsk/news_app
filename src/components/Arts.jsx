@@ -3,6 +3,7 @@ import NewsCard from "./NewsCard";
 import '../styles/NewsList.css';
 import Shimmer from "./Shimmer";
 import axios from 'axios';
+import { ARTS_API } from "../assets/api";
 
 const Arts = ()=> {
     const [newsData, setnewsData] = useState(null)
@@ -14,7 +15,7 @@ const Arts = ()=> {
 
     const fetchData = async()=>{
         try{
-            const response = await axios.get("https://newsapi.org/v2/everything?q=art&apiKey=3a715e2372ef43199f90feaa865c8d26")
+            const response = await axios.get(ARTS_API)
             setnewsData(response.data.articles)
         }catch(error){
             console.log(error);

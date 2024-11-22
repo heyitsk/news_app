@@ -3,7 +3,7 @@ import NewsCard from "./NewsCard";
 import '../styles/NewsList.css';
 import Shimmer from "./Shimmer";
 import axios from 'axios';
-
+import { SPORTS_API } from "../assets/api";
 const Sports = ()=> {
     const [newsData, setnewsData] = useState(null)
     
@@ -14,7 +14,7 @@ const Sports = ()=> {
 
     const fetchData = async()=>{
         try{
-            const response = await axios.get("https://newsapi.org/v2/everything?q=sports&apiKey=3a715e2372ef43199f90feaa865c8d26")
+            const response = await axios.get(SPORTS_API)
             setnewsData(response.data.articles)
         }catch(error){
             console.log(error);
