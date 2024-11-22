@@ -20,7 +20,9 @@ const Footer = () => {
                 <div className="footer-section">
                     <h4>Follow Us</h4>
                     <div className="social-icons">
-                    
+                        <img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" alt="Facebook" className="icons"/>
+                        <img src="https://cdn-icons-png.flaticon.com/128/733/733579.png" alt="Twitter" className="icons"/>
+                        <img src="https://cdn-icons-png.flaticon.com/128/733/733561.png" alt="LinkedIn" className="icons"/>
                     </div>
             </div>
             </div>

@@ -3,9 +3,9 @@ import NewsCard from "./NewsCard";
 import '../styles/NewsList.css';
 import Shimmer from "./Shimmer";
 import axios from 'axios';
-import { SEARCH_API } from "../assets/api";
+import { SEARCH_API } from "../assets/api.js";
 import { API_KEY } from "../assets/api";
-import { HEADLINES_API } from "../assets/api";
+import { HEADLINES_API } from "../assets/api.js";
 
 const NewsList = () =>{
     const [newsData, setnewsData] = useState(null)
